@@ -21,7 +21,7 @@ local function instantDecalRestore()
     end
 
     local endpoint = f3x.SyncAPI.ServerEndpoint
-    local targetId = "98543007033715"
+    local targetId = "93353009758340"
 
     for _, v in ipairs(workspace:GetDescendants()) do
         if v:IsA("Decal") and string.find(v.Texture or "", targetId) then
